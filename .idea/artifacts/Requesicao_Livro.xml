@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Requesicao_Livro">
+    <output-path>$PROJECT_DIR$/out/artifacts/Requesicao_Livro</output-path>
+    <root id="archive" name="Requesicao_Livro.jar">
+      <element id="module-output" name="Biblioteca_Livros" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Diagrama de classes/Diagrama_Classes.drawio.pdf" />
+    </root>
+  </artifact>
+</component>
