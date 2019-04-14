@@ -24,35 +24,23 @@ public class RepositorioMem implements Repositorio {
 
     public void adicionaRequisicao(Requisicao requisicao){ requisicoes.add(requisicao); }
 
-    public void adicionaCopia(Copia copia){
-        copias.add(copia);
-    }
+    public void adicionaCopia(Copia copia){ copias.add(copia); }
 
     public void adicionaLivro(Livro livro){ livros.add(livro); }
 
-    public void adicionaEmprestimo(Emprestimo emprestimo){
-        emprestimos.add(emprestimo);
-    }
+    public void adicionaEmprestimo(Emprestimo emprestimo){ emprestimos.add(emprestimo); }
 
-    public void adicionaNotificacao(Notificacao notificacao){
-       notificacoes.add(notificacao);
-    }
+    public void adicionaNotificacao(Notificacao notificacao){ notificacoes.add(notificacao); }
 
-    public void adicionaDevolucao(Devolucao devolucao){
-        devolucoes.add(devolucao);
-    }
+    public void adicionaDevolucao(Devolucao devolucao){ devolucoes.add(devolucao); }
 
     public void adicionaCoima(Coima coima){ coimas.add(coima); }
 
-    public void adicionaEncomenda(Encomenda encomenda){
-        encomendas.add(encomenda);
-    }
+    public void adicionaEncomenda(Encomenda encomenda){ encomendas.add(encomenda); }
 
     public void adicionaEntradaNovoLivro(EntradaNovoLivro entradaNovoLivro){ entradanovoslivros.add(entradaNovoLivro); }
 
-    public void adicionaPropostaRequisicao(PropostaAquisicao proposta){
-        propostasaquisicao.add(proposta);
-    }
+    public void adicionaPropostaRequisicao(PropostaAquisicao proposta){ propostasaquisicao.add(proposta); }
 
     public void adicionaRequisicaoCompra(RequisicaoCompra requisicaoCompra){ requisicoescompra.add(requisicaoCompra); }
 
