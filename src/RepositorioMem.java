@@ -15,6 +15,10 @@ public class RepositorioMem implements Repositorio {
     private ArrayList<PropostaAquisicao> propostasaquisicao = new ArrayList<PropostaAquisicao>();
     private ArrayList<RequisicaoCompra> requisicoescompra = new ArrayList<RequisicaoCompra>();
     private ArrayList<RequisicaoCompraLivro> requisicoescompralivro = new ArrayList<RequisicaoCompraLivro>();
+    private ArrayList<Funcionário> funcionarios = new ArrayList<Funcionário>();
+    private ArrayList<Orçamento> orçamentos = new ArrayList<Orçamento>();
+    private ArrayList<Reparador> reparadores = new ArrayList<Reparador>();
+    private ArrayList<ResponsávelReparação> responsavelreparaçao = new ArrayList<ResponsávelReparação>();
 
     public RepositorioMem() {}
 
@@ -45,6 +49,14 @@ public class RepositorioMem implements Repositorio {
     public void adicionaRequisicaoCompra(RequisicaoCompra requisicaoCompra){ requisicoescompra.add(requisicaoCompra); }
 
     public void adicionaRequisicaoCompraLivro(RequisicaoCompraLivro requisicaoCompraLivro){ requisicoescompralivro.add(requisicaoCompraLivro); }
+
+    public void adicionaFuncionario(Funcionário funcionario){ funcionarios.add(funcionario); }
+
+    public void adicionaOrçamentos(Orçamento orçamento){ orçamentos.add(orçamento); }
+
+    public void adicionaReparadores(Reparador reparador) { reparadores.add(reparador); }
+
+    public void adicionaResponsavelReparaçao(ResponsávelReparação responsável_Reparação){ responsavelreparaçao.add(responsável_Reparação); }
 
     public Emprestimo devolveEmprestimoDaRequisicao(Requisicao r){
         for (int i = 0; i < emprestimos.size(); i++){
